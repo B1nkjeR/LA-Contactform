@@ -1,42 +1,53 @@
-/* Below line is url to use Google font online */
+*{
+	margin: 0;
+	padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html{
 background-color: #464745;
-}
-body{
-background-color: #abf15f;
-margin-top: -10px;
-margin-right: 685px;
-}
-div#m1{
-width:500px;
-height:700px;
-margin:30px;
 font-family: 'Roboto', sans-serif;
 }
+
+body{
+width: 30%;
+height: auto;
+background-color: #abf15f;
+font-family: 'Roboto', sans-serif;
+}
+
+div#m1{
+height:675px;
+width:auto;
+margin:23px;
+font-family: 'Roboto', sans-serif;
+}
+
 div#contact_form{
 text-align:center;
 border:3px solid #354a04;
 width:300px;
 padding:0 50px 30px 30px;
-margin-top:10px;
-margin-bottom: 0px;
 box-shadow:0 0 0;
-border-radius:10px;
-float:left;
+float: none;
 }
+
 #m1 h3{
 margin:5px;
+text-align: left;
 }
+
 hr{
 margin-top:2px;
 }
+
 label{
 float:left;
 font-size:18px;
-color:#354a04
+color:#354a04;
 }
+
 input[type="text"]{
 width:100%;
 margin-top:10px;
@@ -44,24 +55,24 @@ height:35px;
 margin-bottom:25px;
 padding:10px;
 border:0px solid #ffffff;
-border-radius: 10px;
 }
+
 textarea{
 width:100%;
 border:0px solid #ffffff;
-border-radius: 10px;
 padding:10px;
 margin-bottom:25px;
 margin-top:10px;
 height:100px;
 resize:none
+font-family: 'Roboto', sans-serif;
 }
+
 input[type="Submit"]{
 width:325px;
 padding:10px 45px;
 background-color:#ffffff;
 border: 3px solid #ffffff;
-border-radius: 10px;
 color:#354a04;
 font-size: 18px;
 font-weight:700;
